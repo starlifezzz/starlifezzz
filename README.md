@@ -1,41 +1,101 @@
-<!-- 顶部动态打字机：模拟 adb shell 登录 -->
+<!-- NES 开机画面：纯 CSS/SVG 实现，无需外部图片 -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=800&color=00FFC8&background=0D1117&center=true&vCenter=true&width=600&lines=%24+adb+shell+%7C+su+%7C+whoami;root%40starlifezzz%3A~%23+cat+/proc/version;Linux+version+6.1.0-KernelSU+(starlifezzz%40GuiYang);%24+echo+'Welcome+to+the+machine'" alt="Terminal Typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=16&duration=3000&pause=1000&color=E60012&background=000000&center=true&vCenter=true&width=400&lines=NINTENDO;ENTERTAINMENT+SYSTEM" alt="NES Boot" />
 </p>
 
-<!-- 主标题：不用 Hi，用系统启动日志 -->
-<h1 align="center">
-  <code>[BOOT]</code> starlifezzz's System Initialized
+<!-- 主标题：像素字体 + 红白配色 -->
+<h1 align="center" style="font-family: 'Press Start 2P', monospace; color: #E60012; text-shadow: 2px 2px #000;">
+  PLAYER 1: STARLIFEZZZ
 </h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ROOTED-success?style=flat-square&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/LOCATION-GuiYang%2C%20CN-informational?style=flat-square&logo=mapbox&logoColor=white" />
-  <img src="https://img.shields.io/badge/UPTIME-437%20commits%2Fyear-critical?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://komarev.com/ghpvc/?username=starlifezzz&label=PROFILE+VIEWS&color=00FFC8&style=flat-square" />
+<p align="center" style="font-family: 'Press Start 2P', monospace; font-size: 10px; color: #FFFFFF;">
+  GUIYANG · CHINA · LEVEL 98
 </p>
 
-<!-- 分割线：模拟 dmesg 输出 -->
+<!-- 分割线：模拟 CRT 扫描线 -->
 <p align="center">
-  <code>[    0.000000] Initializing personality: 挖掘机 (Excavator Mode)</code><br>
-  <code>[    0.000001] Loading modules: ColorOS16_Optimize | Nix_Config | Link_NN6000V2_Firmware</code><br>
-  <code>[    0.000002] Mounting filesystems: /dev/sda1 → /mnt/github_profile</code>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=E60012&height=3&section=header&text=&fontSize=0" width="600" />
 </p>
 
 ---
 
-## 🔧 Active Processes (Pinned Repos)
+## 🕹️ CARTRIDGE SLOT (PINNED REPOS)
 
-<table align="center">
+> 每个项目 = 一张游戏卡带 · 点击插入运行
+
+<table align="center" border="0" cellpadding="8">
 <tr>
-<td width="50%">
+<td align="center" width="25%">
+  <a href="https://github.com/starlifezzz/Logd_Disabler_ColorOS16">
+    <img src="https://img.shields.io/badge/COLOR_OS_16-LOGD_KILLER-E60012?style=for-the-badge&logo=android&logoColor=white&labelColor=000000" /><br>
+    <sub style="font-family:'Press Start 2P';font-size:8px;color:#FFF">HTML · ★</sub>
+  </a>
+</td>
+<td align="center" width="25%">
+  <a href="https://github.com/starlifezzz/Nix-Config">
+    <img src="https://img.shields.io/badge/NIX-FLAKE_CONFIG-E60012?style=for-the-badge&logo=nixos&logoColor=white&labelColor=000000" /><br>
+    <sub style="font-family:'Press Start 2P';font-size:8px;color:#FFF">Nix · ACTIVE</sub>
+  </a>
+</td>
+<td align="center" width="25%">
+  <a href="https://github.com/starlifezzz/Link_NN6000V2">
+    <img src="https://img.shields.io/badge/LINK_NN6000V2-FIRMWARE-E60012?style=for-the-badge&logo=openwrt&logoColor=white&labelColor=000000" /><br>
+    <sub style="font-family:'Press Start 2P';font-size:8px;color:#FFF">Shell · FORK</sub>
+  </a>
+</td>
+<td align="center" width="25%">
+  <a href="https://github.com/starlifezzz/frequest">
+    <img src="https://img.shields.io/badge/FREQUEST-GUITAR_TRAINER-E60012?style=for-the-badge&logo=typescript&logoColor=white&labelColor=000000" /><br>
+    <sub style="font-family:'Press Start 2P';font-size:8px;color:#FFF">TS · NEW!</sub>
+  </a>
+</td>
+</tr>
+</table>
 
-### 📱 `Logd_Disabler_ColorOS16`
-> 干掉 ColorOS16 冗余日志守护进程，释放 RAM 与 I/O 性能  
-> ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-> ![Stars](https://img.shields.io/github/stars/starlifezzz/Logd_Disabler_ColorOS16?style=flat-square&color=00FFC8)
+---
 
-```bash
-# 一键部署
-magisk --install-module Logd_Disabler_v1.5.1.zip
-setprop persist.sys.logd.disable 1
+## 📊 HIGH SCORE (STATS)
+
+<p align="center" style="font-family:'Press Start 2P';font-size:10px;color:#E60012;line-height:2;">
+  COMMITS: 437<br>
+  REPOS: 12+<br>
+  STARS: ★8<br>
+  LEVEL: 98
+</p>
+
+---
+
+## 🎮 CONTROLLER MAP (TECH STACK)
+
+<p align="center">
+  <!-- 只用你真正用的技术，像素图标 -->
+  <img src="https://skillicons.dev/icons?i=android,kotlin,java,vue,ts,nix,linux,bash,macos&theme=dark&perline=5" />
+</p>
+
+<p align="center" style="font-family:'Press Start 2P';font-size:8px;color:#E60012;">
+  A: ANDROID · B: NIX · SELECT: SHELL · START: GIT
+</p>
+
+---
+
+## 💾 SAVE STATE (ABOUT)
+
+<p align="left" style="font-family:'Courier New',monospace;font-size:12px;color:#FFFFFF;line-height:1.6;">
+  > LOCATION: GUIYANG, CN (ALT 1100M)<br>
+  > CLASS: EXCAVATOR (SYSTEM DIGGER)<br>
+  > QUESTS: COLOROS OPTIMIZE / NIX CONFIG / ROUTER FW / HACKINTOSH<br>
+  > NO PPT · NO FAKE STARS · JUST CODE & SOLDER<br>
+  > PRESS [EMAIL](mailto:your.email@example.com) TO CONTINUE
+</p>
+
+---
+
+<!-- 底部：NES 关机提示 -->
+<p align="center" style="font-family:'Press Start 2P';font-size:8px;color:#E60012;margin-top:20px;">
+  © 2026 STARLIFEZZZ · INSERT COIN TO PUSH
+</p>
+
+<!-- CRT 扫描线底边 -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=E60012&height=3&section=footer&text=&fontSize=0" width="600" />
+</p>
