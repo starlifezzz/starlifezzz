@@ -1,10 +1,9 @@
-<!-- NES 开机画面：纯 CSS/SVG 实现，无需外部图片 -->
+<!-- NES 开机画面 -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=16&duration=3000&pause=1000&color=E60012&background=000000&center=true&vCenter=true&width=400&lines=NINTENDO;ENTERTAINMENT+SYSTEM" alt="NES Boot" />
 </p>
 
-<!-- 主标题：像素字体 + 红白配色 -->
-<h1 align="center" style="font-family: 'Press Start 2P', monospace; color: #E60012; text-shadow: 2px 2px #000;">
+<h1 align="center" style="font-family: 'Press Start 2P', monospace; color: #E60012;">
   PLAYER 1: STARLIFEZZZ
 </h1>
 
@@ -12,16 +11,14 @@
   GUIYANG · CHINA · LEVEL 98
 </p>
 
-<!-- 分割线：模拟 CRT 扫描线 -->
+<!-- 红色顶部扫描线 -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=E60012&height=3&section=header&text=&fontSize=0" width="600" />
 </p>
 
 ---
 
-## 🕹️ CARTRIDGE SLOT (PINNED REPOS)
-
-> 每个项目 = 一张游戏卡带 · 点击插入运行
+## 🕹️ CARTRIDGE SLOT
 
 <table align="center" border="0" cellpadding="8">
 <tr>
@@ -54,48 +51,47 @@
 
 ---
 
-## 📊 HIGH SCORE (STATS)
-
-<p align="center" style="font-family:'Press Start 2P';font-size:10px;color:#E60012;line-height:2;">
-  COMMITS: 437<br>
-  REPOS: 12+<br>
-  STARS: ★8<br>
-  LEVEL: 98
+<!-- 🔴 核心改造：用 shields.io 徽章横向排列 + 红色标题模拟卡带 -->
+<p align="center" style="font-family:'Press Start 2P';font-size:10px;color:#E60012;margin:16px 0 8px 0;">
+  📊 HIGH SCORE &nbsp;&nbsp;|&nbsp;&nbsp; 🎮 CONTROLLER
 </p>
-
----
-
-## 🎮 CONTROLLER MAP (TECH STACK)
 
 <p align="center">
-  <!-- 只用你真正用的技术，像素图标 -->
-  <img src="https://skillicons.dev/icons?i=android,kotlin,java,vue,ts,nix,linux,bash,macos&theme=dark&perline=5" />
+  <!-- HIGH SCORE 徽章组 -->
+  <img src="https://img.shields.io/badge/COMMITS-437-E60012?style=flat-square&logo=git&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/REPOS-12+-E60012?style=flat-square&logo=github&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/STARS-★8-E60012?style=flat-square&logo=star&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/LEVEL-98-E60012?style=flat-square&logo=gamepad&logoColor=white&labelColor=000000" />
 </p>
 
-<p align="center" style="font-family:'Press Start 2P';font-size:8px;color:#E60012;">
-  A: ANDROID · B: NIX · SELECT: SHELL · START: GIT
+<p align="center">
+  <!-- CONTROLLER 技术栈图标 -->
+  <img src="https://skillicons.dev/icons?i=android,kotlin,java,vue,ts,nix,linux,bash,macos&theme=dark&perline=9" />
+</p>
+
+<p align="center" style="font-family:'Press Start 2P';font-size:7px;color:#E60012;margin-top:4px;">
+  A:ANDROID B:NIX SEL:SHELL STA:GIT
+</p>
+
+<!-- 红色底部扫描线 -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=E60012&height=3&section=footer&text=&fontSize=0" width="600" />
 </p>
 
 ---
 
-## 💾 SAVE STATE (ABOUT)
+## 💾 SAVE STATE
 
 <p align="left" style="font-family:'Courier New',monospace;font-size:12px;color:#FFFFFF;line-height:1.6;">
   > LOCATION: GUIYANG, CN (ALT 1100M)<br>
   > CLASS: EXCAVATOR (SYSTEM DIGGER)<br>
   > QUESTS: COLOROS OPTIMIZE / NIX CONFIG / ROUTER FW / HACKINTOSH<br>
   > NO PPT · NO FAKE STARS · JUST CODE & SOLDER<br>
-  > PRESS [EMAIL](mailto:your.email@example.com) TO CONTINUE
+  > PRESS <a href="mailto:your.email@example.com" style="color:#E60012;">[EMAIL]</a> TO CONTINUE
 </p>
 
 ---
 
-<!-- 底部：NES 关机提示 -->
 <p align="center" style="font-family:'Press Start 2P';font-size:8px;color:#E60012;margin-top:20px;">
   © 2026 STARLIFEZZZ · INSERT COIN TO PUSH
-</p>
-
-<!-- CRT 扫描线底边 -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=E60012&height=3&section=footer&text=&fontSize=0" width="600" />
 </p>
